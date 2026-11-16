@@ -43,7 +43,7 @@ Dictionary<int,int> keyVal= new Dictionary<int, int>();
 
 for(int i = 0; i < num.Length; i++)
         {
-            int currentNumber= num[i];
+            int currentNumber= num[i]
             int neededNumber=target-currentNumber;
 
             if (keyVal.ContainsKey(neededNumber))
